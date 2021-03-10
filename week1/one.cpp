@@ -1,16 +1,16 @@
 #include <iostream>
 #include <string>
-using namespace std; // 鍛藉悕绌洪棿
+using namespace std; // 命名空间
 
 int main() {
     cout << "Hello, World!" << endl;
     string name;
     int age;
-    cout << "璇疯緭鍏ュ悕瀛楋細";
+    cout << "请输入名字：";
     cin >> name;
-    cout << "璇疯緭鍏ュ勾榫勶細";
+    cout << "请输入年龄：";
     cin >> age;
-    cout << "鎴戠殑鍚嶅瓧鏄細" << name << ", 鎴戜粖骞达細" << age << "宀佷簡锛屾垜鏄庡勾" << age+1 << "宀佷簡" << endl;
+    cout << "我的名字是：" << name << ", 我今年：" << age << "岁了，我明年" << age+1 << "岁了" << endl;
 
     return 0;
 }
